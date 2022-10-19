@@ -74,6 +74,7 @@ header {
   opacity: 0;
 }
 
+
 .contenedormenu a::before {
   content: '';
   right: 0;
@@ -83,6 +84,7 @@ header {
   transform: translate(-100%, 50%);
 }
 
+
 .contenedormenu a:after {
   content: '';
   left: 0;
@@ -91,6 +93,7 @@ header {
   border-left: 3px solid #807f7fcb;
   transform: translate(100%, -50%)
 }
+
 
 .contenedormenu a:hover:before,
 .contenedormenu a:hover:after{
@@ -156,6 +159,7 @@ main {
 .galeria_portada:nth-child(7) {
     grid-row-start:span 2; 
 }
+
 footer { 
     width: 100%;
     position: absolute;
@@ -167,15 +171,17 @@ footer {
     
 }
 .logofooter img{ 
-    margin: 10px;
-    width: 300px;
-    height: 300px;
-    margin-left: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: whitesmoke;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 10%;
+
 }
+
+
 .contenedorfooter  h3 {
     margin: 7%;
     font-size: 1.7em;
