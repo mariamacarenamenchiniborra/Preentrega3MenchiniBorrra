@@ -121,12 +121,11 @@ main {
 }
 
 .galeria_contenedor {
-    margin: 20px;
+    margin: 10px;
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(3, 1fr) ;
     grid-auto-rows: 150px;
-    padding: 20px;
+    padding: 10px;
     grid-gap: 10px;
 }
 
