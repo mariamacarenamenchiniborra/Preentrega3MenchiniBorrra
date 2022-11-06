@@ -195,6 +195,12 @@ footer {
     line-height: 2.4rem;
     text-align: center;
 }
+.row a { 
+    display: inline;
+    text-decoration: none;
+    color: #5B5B5B;
+}
+
 
 .logowhatsapp img { 
     margin: 0;
@@ -218,7 +224,7 @@ main{
     font-family: 'Dancing Script', cursive;
 }
 #comocomprar div ol { 
-     margin: 16px;
+      margin: 16px;
      font-size: 20px;
      padding-left: 40px;
      line-height: 2;
